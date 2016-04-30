@@ -4,7 +4,7 @@
 #
 Name     : XStatic-jquery-ui
 Version  : 1.11.0.1
-Release  : 11
+Release  : 12
 URL      : https://pypi.python.org/packages/source/X/XStatic-jquery-ui/XStatic-jquery-ui-1.11.0.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-jquery-ui/XStatic-jquery-ui-1.11.0.1.tar.gz
 Summary  : jquery-ui 1.11.0 (XStatic packaging standard)
