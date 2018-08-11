@@ -1,0 +1,35 @@
+--- XStatic-jquery-ui-1.12.0.1/setup.py~	2018-08-11 23:00:42.000000000 +0000
++++ XStatic-jquery-ui-1.12.0.1/setup.py	2018-08-11 23:11:52.238189203 +0000
+@@ -1,4 +1,3 @@
+-from xstatic.pkg import jquery_ui as xs
+ 
+ # The README.txt file should be written in reST so that PyPI can use
+ # it to generate your project's PyPI page. 
+@@ -7,17 +6,17 @@
+ from setuptools import setup, find_packages
+ 
+ setup(
+-    name=xs.PACKAGE_NAME,
+-    version=xs.PACKAGE_VERSION,
+-    description=xs.DESCRIPTION,
++    name='XStatic-jquery-ui',
++    version='1.12.0',
++    description='FOO',
+     long_description=long_description,
+-    classifiers=xs.CLASSIFIERS,
+-    keywords=xs.KEYWORDS,
+-    maintainer=xs.MAINTAINER,
+-    maintainer_email=xs.MAINTAINER_EMAIL,
+-    license=xs.LICENSE,
+-    url=xs.HOMEPAGE,
+-    platforms=xs.PLATFORMS,
++    classifiers=[],
++    keywords='xstatic',
++    maintainer='Thomas Waldmann',
++    maintainer_email='tw@waldmann-edv.de',
++    license='MIT',
++    url='',
++    platforms='any',
+     packages=find_packages(),
+     namespace_packages=['xstatic', 'xstatic.pkg', ],
+     include_package_data=True,
